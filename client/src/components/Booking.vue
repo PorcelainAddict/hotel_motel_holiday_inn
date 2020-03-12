@@ -3,7 +3,7 @@
     <h2>{{booking.name}}'s booking</h2>
     <p>E-mail:{{booking.email}}</p>
     <p v-if="getStatus === true">Guest Status: Checked In</p>
-    <p v-if="getStatus === false">Guest Status: Fucked off</p>
+    <p v-if="getStatus === false">Guest Status: Checked Out</p>
     <button v-on:click="handleDelete">Delete Booking</button>
     <button v-on:click="handleUpdate">Update Guest Status</button>
   </div>
